@@ -41,6 +41,7 @@ When adding or editing a child item, if a child item exists with the same title,
 ### Upsert doesn't work
 In ContentView, editing doesn't work
 
+    let existingChildItems = item.childItem(with: title)
     if existingChildItems.count > 0 {
         //edit
         print("editing!! \(title)")
@@ -58,6 +59,7 @@ In ContentView, editing doesn't work
 
 Workaround is at `ContentView.swift`, line `73`. Delete than add:
 
+    let existingChildItems = item.childItem(with: title)
 	if existingChildItems.count > 0 {
 	    print("deleting!! \(title)")
 	    let childItem = existingChildItems[0]
