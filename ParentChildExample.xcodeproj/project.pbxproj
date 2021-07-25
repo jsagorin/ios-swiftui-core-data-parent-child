@@ -17,6 +17,7 @@
 		65952B2926ABEB4C00D8BECF /* ParentChildExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65952B2826ABEB4C00D8BECF /* ParentChildExampleUITests.swift */; };
 		65952B3B26ABEFAA00D8BECF /* AddEditChildItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65952B3A26ABEFAA00D8BECF /* AddEditChildItemView.swift */; };
 		65952B3F26ABF36100D8BECF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65952B3E26ABF36100D8BECF /* Extensions.swift */; };
+		65952B4126AD046900D8BECF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 65952B4026AD046900D8BECF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		65952B2A26ABEB4C00D8BECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65952B3A26ABEFAA00D8BECF /* AddEditChildItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditChildItemView.swift; sourceTree = "<group>"; };
 		65952B3E26ABF36100D8BECF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		65952B4026AD046900D8BECF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		65952AFA26ABEB4900D8BECF = {
 			isa = PBXGroup;
 			children = (
+				65952B4026AD046900D8BECF /* README.md */,
 				65952B0526ABEB4900D8BECF /* ParentChildExample */,
 				65952B1C26ABEB4B00D8BECF /* ParentChildExampleTests */,
 				65952B2726ABEB4C00D8BECF /* ParentChildExampleUITests */,
@@ -261,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65952B4126AD046900D8BECF /* README.md in Resources */,
 				65952B0E26ABEB4B00D8BECF /* Preview Assets.xcassets in Resources */,
 				65952B0B26ABEB4B00D8BECF /* Assets.xcassets in Resources */,
 			);

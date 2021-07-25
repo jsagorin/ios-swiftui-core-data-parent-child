@@ -71,22 +71,20 @@ struct ContentView: View {
         }
         
         /*DELETE: WORKS. deleting the child item, then adding it back again works */
-//                if existingChildItems.count > 0 {
-//                    //edit
-//                    print("deleting!! \(title)")
-//                    let childItem = existingChildItems[0]
-//                    childItem.subTitle = subTitle
-//                    viewContext.delete(childItem)
-//                    item.removeFromChildren(childItem)
-//                }
-//                //now add
-//                print("adding!! \(title)")
-//                let childItem = ChildItem(context: viewContext)
-//                childItem.title = title
-//                childItem.subTitle = subTitle
-//                item.addToChildren(childItem)
-        
-        
+//        if existingChildItems.count > 0 {
+//            //edit
+//            print("deleting!! \(title)")
+//            let childItem = existingChildItems[0]
+//            viewContext.delete(childItem)
+//            item.removeFromChildren(childItem)
+//        }
+//        //now add
+//        print("adding!! \(title)")
+//        let childItem = ChildItem(context: viewContext)
+//        childItem.title = title
+//        childItem.subTitle = subTitle
+//        item.addToChildren(childItem)
+//
         saveContext()
     }
     
